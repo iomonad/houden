@@ -22,3 +22,6 @@ scalacOptions += "-feature"
 /* Strict coverage needed */
 coverageMinimum := 80
 coverageFailOnMinimum := true
+
+/* set documentation folder output */
+target in Compile in doc := baseDirectory.value / "docs"
