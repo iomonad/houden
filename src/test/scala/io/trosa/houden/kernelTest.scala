@@ -3,7 +3,6 @@
  */
 
 class Foo {
-  def bar: Boolean = {
+  def bar: Boolean =
     true
-  }
 }
