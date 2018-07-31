@@ -25,6 +25,3 @@ coverageFailOnMinimum := true
 
 /* set documentation folder output */
 target in Compile in doc := baseDirectory.value / "docs"
-
-/* Enable microsites */
-enablePlugins(MicrositesPlugin)
