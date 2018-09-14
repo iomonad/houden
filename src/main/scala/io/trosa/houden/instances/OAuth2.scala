@@ -6,6 +6,4 @@ import cats.implicits._
 
 trait OAuth2 {
 
-  implicit def AOuth2Monad(client: String) = ???
-
 }

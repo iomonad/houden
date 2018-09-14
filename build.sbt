@@ -11,6 +11,7 @@ lazy val root = (project in file(".")).settings(
     name := "houden",
     libraryDependencies ++= Seq(
         scalaTest % Test,
+        hammock,
         cats
     )
 )
